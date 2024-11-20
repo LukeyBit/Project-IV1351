@@ -1,0 +1,22 @@
+INSERT INTO ensemble_lessons (lesson_type,instructor,lesson_start,lesson_end,genre,minimum_students,maximum_students)
+VALUES
+  ('ensemble','202443300051','now','tomorrow','uk-drill',3,6),
+  ('ensemble','202443300051','now','tomorrow','uk-drill',3,5),
+  ('ensemble','202443300051','now','tomorrow','jazz',2,5),
+  ('ensemble','202443300051','now','tomorrow','jazz',2,6),
+  ('ensemble','202443300051','now','tomorrow','uk-drill',2,5),
+  ('ensemble','202443300051','now','tomorrow','classical',2,5),
+  ('ensemble','202443300051','now','tomorrow','classical',2,6),
+  ('ensemble','202443300051','now','tomorrow','jazz',2,4),
+  ('ensemble','202443300051','now','tomorrow','classical',2,6),
+  ('ensemble','202443300051','now','tomorrow','uk-drill',1,5),
+  ('ensemble','202443300051','now','tomorrow','classical',2,5),
+  ('ensemble','202443300051','now','tomorrow','jazz',2,5),
+  ('ensemble','202443300051','now','tomorrow','jazz',2,6),
+  ('ensemble','202443300051','now','tomorrow','uk-drill',1,5),
+  ('ensemble','202443300051','now','tomorrow','uk-drill',3,6),
+  ('ensemble','202443300051','now','tomorrow','classical',1,5),
+  ('ensemble','202443300051','now','tomorrow','jazz',2,5),
+  ('ensemble','202443300051','now','tomorrow','uk-drill',1,5),
+  ('ensemble','202443300051','now','tomorrow','classical',3,5),
+  ('ensemble','202443300051','now','tomorrow','classical',1,5);

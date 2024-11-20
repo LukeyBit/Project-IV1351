@@ -1,0 +1,22 @@
+INSERT INTO group_lessons (lesson_type,instructor,lesson_start,lesson_end,instrument_type,lesson_level,minimum_students,maximum_students)
+VALUES
+  ('group','202443300051','now','tomorrow',1,'beginner',2,4),
+  ('group','202443300051','now','tomorrow',1,'beginner',2,5),
+  ('group','202443300051','now','tomorrow',1,'advanced',2,5),
+  ('group','202443300051','now','tomorrow',1,'advanced',1,5),
+  ('group','202443300051','now','tomorrow',1,'beginner',2,4),
+  ('group','202443300051','now','tomorrow',1,'advanced',2,5),
+  ('group','202443300051','now','tomorrow',1,'intermediate',2,5),
+  ('group','202443300051','now','tomorrow',1,'beginner',3,5),
+  ('group','202443300051','now','tomorrow',1,'beginner',2,6),
+  ('group','202443300051','now','tomorrow',1,'advanced',3,6),
+  ('group','202443300051','now','tomorrow',1,'beginner',3,5),
+  ('group','202443300051','now','tomorrow',1,'advanced',3,4),
+  ('group','202443300051','now','tomorrow',1,'intermediate',2,5),
+  ('group','202443300051','now','tomorrow',1,'beginner',1,4),
+  ('group','202443300051','now','tomorrow',1,'intermediate',3,6),
+  ('group','202443300051','now','tomorrow',1,'advanced',2,5),
+  ('group','202443300051','now','tomorrow',1,'advanced',1,4),
+  ('group','202443300051','now','tomorrow',1,'advanced',3,5),
+  ('group','202443300051','now','tomorrow',1,'intermediate',2,6),
+  ('group','202443300051','now','tomorrow',1,'beginner',3,5);
