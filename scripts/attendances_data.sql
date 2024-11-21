@@ -1,5 +1,0 @@
-INSERT INTO attendances (lesson,student)
-VALUES
-  (1,202515120059),
-  (21,202515120059),
-  (41,202515120059);

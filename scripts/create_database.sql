@@ -6,16 +6,16 @@ CREATE TYPE LESSON_TYPE AS ENUM ('group', 'individual', 'ensemble');
 CREATE TYPE LESSON_LEVEL AS ENUM ('beginner', 'intermediate', 'advanced');
 
 CREATE TABLE IF NOT EXISTS people (
-    personal_number SERIAL,
-    name varchar(15) NOT NULL,
-    address varchar(15) NOT NULL,
-    contact_details varchar(30) NOT NULL,
+    personal_number BIGINT,
+    name varchar(64) NOT NULL,
+    address varchar(64) NOT NULL,
+    contact_details varchar(64) NOT NULL,
     PRIMARY KEY (personal_number)
 );
 
 CREATE TABLE IF NOT EXISTS students (
     student_id SERIAL,
-    contact_person varchar(15),
+    contact_person varchar(64),
     sibling_group integer NOT NULL,
     PRIMARY KEY(student_id)
 ) INHERITS (people);
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS instructors (
 
 CREATE TABLE IF NOT EXISTS instrument_types (
     instrument_type_id SERIAL,
-    name varchar(10) NOT NULL,
+    name varchar(32) NOT NULL,
     PRIMARY KEY(instrument_type_id)
 );
 
