@@ -16,4 +16,4 @@ The script for populating the database was made by generating data using a onlin
 
 ## Logical model
 
-![Logical model](./.github/Logical_Model.svg)
+![Logical model](./Logical_Model.svg)
