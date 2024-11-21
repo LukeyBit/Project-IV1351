@@ -10,7 +10,9 @@ The members of the group:
 
 ## Project file structure
 
-The SQL script for building the database, [create_database.sql](/scripts/create_database.sql) is located in the scripts directory.
+The SQL script for building the database, [create_database.sql](/scripts/create_database.sql), and the script for populating the database with data, [create_data.sql](/scripts/create_data.sql), are located in the scripts directory.
+
+The script for populating the database was made by generating data using a online data generation tool.
 
 ## Logical model
 
