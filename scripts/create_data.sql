@@ -202,7 +202,16 @@ INSERT INTO attendances (lesson,student)
 VALUES
   (1,1),
   (21,2),
-  (41,3);
+  (41,3),
+  (41,4),
+  (41,5),
+  (46,2),
+  (46,10),
+  (46,11),
+  (47,2),
+  (47,10),
+  (47,11),
+  (47,12);
 
 INSERT INTO prices (lesson_type,lesson_level,price)
 VALUES
