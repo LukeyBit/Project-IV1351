@@ -1,2 +1,2 @@
-SELECT instructor_id, name, COUNT(DISTINCT instructor) AS lessons FROM instructors 
-JOIN lessons ON instructor_id=instructor GROUP BY instructor_id ORDER BY instructor_id;
+SELECT instructor_id, name, COUNT(DISTINCT instructor) AS nr_lessons FROM instructors 
+JOIN lessons ON instructor_id=instructor GROUP BY instructor_id HAVING COUNT(DISTINCT instructor) > 1 ORDER BY instructor_id;
