@@ -44,8 +44,6 @@ JOIN lessons ON instructor_id=instructor
 GROUP BY instructor_id 
 ORDER BY instructor_id;
 
-CREATE INDEX idx_nr_lessons_per_instructor ON nr_lessons_per_instructor("Instructor ID");
-
 -- Materialized view for the number of open slots in ensemble lessons in week 48 (Query 4)
 -- Supporting indexes
 CREATE INDEX idx_ensemble_lessons_start ON ensemble_lessons(lesson_start);
@@ -60,7 +58,7 @@ WITH booked AS (
     GROUP BY lesson
 )
 SELECT 
-    TO_CHAR(lesson_start, 'YYY-MM-DD') AS "Date",
+    TO_CHAR(lesson_start, 'YYYY-MM-DD') AS "Date",
     EXTRACT(WEEK FROM lesson_start) AS "Week",
     TO_CHAR(lesson_start, 'Day') AS "Day", 
     genre AS "Genre", 

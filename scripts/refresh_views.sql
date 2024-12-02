@@ -1,2 +1,3 @@
-REFRESH MATERIALIZED VIEW monthly_lesson_stats_2024;
+REFRESH MATERIALIZED VIEW monthly_lessons_2024;
 REFRESH MATERIALIZED VIEW open_ensemble_slots;
+REFRESH MATERIALIZED VIEW frequency_of_nr_siblings;
