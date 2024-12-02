@@ -44,7 +44,7 @@ JOIN lessons ON instructor_id=instructor
 GROUP BY instructor_id 
 ORDER BY instructor_id;
 
--- Materialized view for the number of open slots in ensemble lessons in week 48 (Query 4)
+-- Materialized view for the number of open slots in ensemble lessons (Query 4)
 -- Supporting indexes
 CREATE INDEX idx_ensemble_lessons_start ON ensemble_lessons(lesson_start);
 CREATE INDEX idx_attendances_lesson ON attendances(lesson);
