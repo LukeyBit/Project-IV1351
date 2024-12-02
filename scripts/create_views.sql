@@ -62,7 +62,11 @@ SELECT
     EXTRACT(WEEK FROM lesson_start) AS "Week",
     TO_CHAR(lesson_start, 'Day') AS "Day", 
     genre AS "Genre", 
-    maximum_students - COALESCE(attending, 0) AS "Nr open slots"
+    CASE 
+        WHEN maximum_students - COALESCE(attending, 0) = 0 THEN 'none'
+        WHEN maximum_students - COALESCE(attending, 0) <= 2 THEN '1-2'
+        ELSE 'many'
+    END AS "Nr open slots"
 FROM ensemble_lessons 
 LEFT JOIN booked ON lesson_id=lesson
 ORDER BY lesson_start, "Genre";
