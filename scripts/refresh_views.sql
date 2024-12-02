@@ -1,0 +1,2 @@
+REFRESH MATERIALIZED VIEW monthly_lesson_stats_2024;
+REFRESH MATERIALIZED VIEW open_ensemble_slots;
